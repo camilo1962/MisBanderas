@@ -1,0 +1,2090 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &386533501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 386533504}
+  - component: {fileID: 386533503}
+  - component: {fileID: 386533502}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &386533502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386533501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &386533503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386533501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &386533504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386533501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &446958688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 446958689}
+  - component: {fileID: 446958692}
+  - component: {fileID: 446958691}
+  - component: {fileID: 446958690}
+  m_Layer: 5
+  m_Name: GameHistory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &446958689
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446958688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2053915816}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 67.8, y: -93}
+  m_SizeDelta: {x: 113, y: 113}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &446958690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446958688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 446958691}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1098581405}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GameHistory
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &446958691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446958688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a5df398d2c8444b4b8390791a75622ac, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &446958692
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446958688}
+  m_CullTransparentMesh: 1
+--- !u!1 &475556951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475556952}
+  - component: {fileID: 475556955}
+  - component: {fileID: 475556954}
+  - component: {fileID: 475556953}
+  m_Layer: 5
+  m_Name: Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &475556952
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475556951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2053915816}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -49.6, y: -93}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &475556953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475556951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 475556954}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1098581405}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GameSettings
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &475556954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475556951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7247e6b3c9e5743658533ff069b6d0aa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &475556955
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475556951}
+  m_CullTransparentMesh: 1
+--- !u!1 &636375420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636375421}
+  - component: {fileID: 636375424}
+  - component: {fileID: 636375423}
+  - component: {fileID: 636375422}
+  m_Layer: 5
+  m_Name: Play
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &636375421
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636375420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2053915816}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -6, y: 69}
+  m_SizeDelta: {x: 130, y: 130}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &636375422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636375420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 636375423}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1098581405}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PickMenu
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &636375423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636375420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0d21950d55e7f40d2b7c17a431ee0557, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &636375424
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636375420}
+  m_CullTransparentMesh: 1
+--- !u!1 &745102111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 745102112}
+  - component: {fileID: 745102115}
+  - component: {fileID: 745102114}
+  - component: {fileID: 745102113}
+  m_Layer: 5
+  m_Name: Exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &745102112
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745102111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2053915816}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 183.5, y: -97}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &745102113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745102111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 745102114}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1098581405}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PickMenu
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &745102114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745102111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ebd4242a31b1c418b8fbaec59fd1b1d9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &745102115
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745102111}
+  m_CullTransparentMesh: 1
+--- !u!1 &787486690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787486691}
+  - component: {fileID: 787486694}
+  - component: {fileID: 787486693}
+  - component: {fileID: 787486692}
+  m_Layer: 5
+  m_Name: Progress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &787486691
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787486690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2053915816}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -172, y: -93}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &787486692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787486690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 787486693}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1098581405}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GameProgress
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &787486693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787486690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d5796873959224275bfb250f40a47776, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &787486694
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787486690}
+  m_CullTransparentMesh: 1
+--- !u!1 &1098581401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1098581404}
+  - component: {fileID: 1098581403}
+  - component: {fileID: 1098581402}
+  - component: {fileID: 1098581405}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1098581402
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098581401}
+  m_Enabled: 1
+--- !u!20 &1098581403
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098581401}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 0.7921569, b: 0.50980395, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1098581404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098581401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1098581405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098581401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ba113c7d04144ba9773691dfb7bfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mGuiPanel: {fileID: 0}
+--- !u!1 &1398436555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398436557}
+  - component: {fileID: 1398436556}
+  m_Layer: 0
+  m_Name: GlobalGameDataObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1398436556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398436555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdd1dab269614f79b9aee875b7714aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EuropeanCountryDataSet:
+  - Name: Albania
+    Flag: {fileID: 21300000, guid: 3617c2f3dec93467583b43936c06f4dd, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Alemania
+    Flag: {fileID: 21300000, guid: c976ced80fceb41779d600beaa7e2886, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Andorra
+    Flag: {fileID: 21300000, guid: 8f7a115e70f514c18bfefa086ade6d7f, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Armenia
+    Flag: {fileID: 21300000, guid: 47251e7cd6ea84bfdb88cf812514748c, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Austria
+    Flag: {fileID: 21300000, guid: d1bad506e79f24672acfa2df742f594d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Azerbaijan
+    Flag: {fileID: 21300000, guid: c036b49d69cc349b499a87ef855dc4a5, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Belgica
+    Flag: {fileID: 21300000, guid: 6dc02aa7c708b42f5aac1168f263173a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bielorusia
+    Flag: {fileID: 21300000, guid: 3d4de504c946648ceaed8d12b0753670, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bosnia and Herzegivina
+    Flag: {fileID: 21300000, guid: a445ff356231e4f089dbcbda973f541c, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bulgaria
+    Flag: {fileID: 21300000, guid: a34847c2f28fa49cc8b5698f07cc7769, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Chipre
+    Flag: {fileID: 21300000, guid: f9cb17e56e5394e18a54de70cb74ec32, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Croacia
+    Flag: {fileID: 21300000, guid: 308b90a0a12e14f58b21343417304056, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Dinamarca
+    Flag: {fileID: 21300000, guid: 71e9204a9b0884df79960eb4020d34f2, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: "Espa\xF1a"
+    Flag: {fileID: 21300000, guid: 24a73d58aa43149d393c93a3c5442f43, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Estonia
+    Flag: {fileID: 21300000, guid: ac813a7b7005b41f7a192be7c61cdf81, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Finlandia
+    Flag: {fileID: 21300000, guid: 70ce322d312c14128a4fa71a6568776a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Francia
+    Flag: {fileID: 21300000, guid: 52925b5255e8e441eafd126cb02fcb38, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Georgia
+    Flag: {fileID: 21300000, guid: de92f37ec4fc043908372b07544dc8b2, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Grecia
+    Flag: {fileID: 21300000, guid: ae34a278096eb4453ba6df02f4ebbf55, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Holanda
+    Flag: {fileID: 21300000, guid: 72a173be063f14ab78d59059e0308502, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Hungria
+    Flag: {fileID: 21300000, guid: c56c3b629611e422e8d160b141bdbe96, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Irlanda
+    Flag: {fileID: 21300000, guid: 657f4b0e05f7b41bd83991067dc8f765, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Islandia
+    Flag: {fileID: 21300000, guid: 423db2e21244e4f6ead99919f43a657d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Italia
+    Flag: {fileID: 21300000, guid: 42ac9fb1ec63a49d2a701fef73e11abd, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Kazajstan
+    Flag: {fileID: 21300000, guid: f8cd98e0686af4c4fb636aa855f62e80, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Kosovo
+    Flag: {fileID: 21300000, guid: 7178bbc0da4ad487491bc0f051cb190d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Letonia
+    Flag: {fileID: 21300000, guid: a127100f708654ec3ba28d167958b192, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Liechtenstein
+    Flag: {fileID: 21300000, guid: 3e2ac423251674a18805eb73064ce93f, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Lituania
+    Flag: {fileID: 21300000, guid: 78984eeb5efbd40488a66819743b3100, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Luxenburgo
+    Flag: {fileID: 21300000, guid: 490f5055616cf42ae95efa9ca8e49959, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Macedonia
+    Flag: {fileID: 21300000, guid: 64561477aee6c4631baadf6cef1e4b2a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Malta
+    Flag: {fileID: 21300000, guid: 8cf636ed9240548148a22abba9558a6c, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Moldavia
+    Flag: {fileID: 21300000, guid: 82b9fa9ff243b41748f12e08d9a06b83, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Monaco
+    Flag: {fileID: 21300000, guid: 31666acacdbd44159bc30b2800755eb5, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Montenegro
+    Flag: {fileID: 21300000, guid: bb2bb64abd2344b19b01ae200ac92e68, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Noruega
+    Flag: {fileID: 21300000, guid: d047b4349751a491099170a42cca2029, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Polonia
+    Flag: {fileID: 21300000, guid: 54a346b6ea964467392b4458cf883a67, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Portugal
+    Flag: {fileID: 21300000, guid: f03c41c008d7f43178185e9417fc043b, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: ReinoUnido
+    Flag: {fileID: 21300000, guid: 483ff62982d4e40fb8f9fa52759fc6f1, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: RepublicaCheca
+    Flag: {fileID: 21300000, guid: 39f910283c12c4455bffb1e7fd4bf313, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Rumania
+    Flag: {fileID: 21300000, guid: 9a8ec98556dde4f679345ad9961aa23a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Rusia
+    Flag: {fileID: 21300000, guid: 0803b2b6adf4349a89a43a0be66639c1, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: SanMarino
+    Flag: {fileID: 21300000, guid: efd3c5012fbdc4d0ea825d0424bd705b, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Serbia
+    Flag: {fileID: 21300000, guid: 263a49397fbae45d5bf8ca37bc5efdcd, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Slovakia
+    Flag: {fileID: 21300000, guid: 2567e5bcb9ca041f7a04aea51277fae3, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Slovenia
+    Flag: {fileID: 21300000, guid: a6f5372b4e230425da4ae82517df922d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Suecia
+    Flag: {fileID: 21300000, guid: 5d14828d075514ff7bde9ed20d1331d9, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Suiza
+    Flag: {fileID: 21300000, guid: 678b015da16854557ade238b5cc7e0b4, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Turquia
+    Flag: {fileID: 21300000, guid: 95d73baf86f0e44448e33e1e4ab01dc3, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Ucrania
+    Flag: {fileID: 21300000, guid: 486964135119049648b71eb9db998272, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Vaticano
+    Flag: {fileID: 21300000, guid: 133b67770a936488abde6e937017d8f5, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  AfricaCountryDataSet:
+  - Name: Angola
+    Flag: {fileID: 21300000, guid: ae10b92608cfa46e9a3ecaf65c298348, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Argelia
+    Flag: {fileID: 21300000, guid: 6c60f9c509f914acc82f07bf1e0cc128, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Benin
+    Flag: {fileID: 21300000, guid: 57f72c0884f4b44f1b0eec91b16b21de, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bostwana
+    Flag: {fileID: 21300000, guid: 31f47bbfae0cf443fb854eee218e9d84, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: BurkinaFaso
+    Flag: {fileID: 21300000, guid: 0d4ee5a2eb98e4720984de6093e3caaa, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Burundi
+    Flag: {fileID: 21300000, guid: a29900fa5f5c2474f9be81ecded2c2aa, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: CaboVerde
+    Flag: {fileID: 21300000, guid: 6a757c009dac94568ab7a9b9244d4094, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Camerun
+    Flag: {fileID: 21300000, guid: 7363c9a06c4b74194a07f267063f6e7d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Chad
+    Flag: {fileID: 21300000, guid: 9693e70557b4e422d9d7ad60414da0ef, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Comoros
+    Flag: {fileID: 21300000, guid: 517b5828766ae452a8fdb6423593adfc, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: CostaDeMarfil
+    Flag: {fileID: 21300000, guid: c58142d81a7864471ac5e341a8e6b403, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Egipto
+    Flag: {fileID: 21300000, guid: 89ac5652f32fb4a00a5d1e5373ea38f8, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Eritrea
+    Flag: {fileID: 21300000, guid: efee4ca06b9d8493b9a9b6918a5abc94, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Etiopia
+    Flag: {fileID: 21300000, guid: 8311a58667c944d5287214613472defd, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Gabon
+    Flag: {fileID: 21300000, guid: e4579955ba4c84d7193492d5962a1c82, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Gambia
+    Flag: {fileID: 21300000, guid: b5bbb5dc1ca5c4ebd89279b8ef9edef7, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Ghana
+    Flag: {fileID: 21300000, guid: b3a2ae8e45d324d2ebd39c458c0be737, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Guinea
+    Flag: {fileID: 21300000, guid: ad32f9d6208514cae89a340eeb9d0d1a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Guinea-Bissau
+    Flag: {fileID: 21300000, guid: 8a7a15e2958b442b5ae6d86955042af0, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: GuineaEcuatorial
+    Flag: {fileID: 21300000, guid: bdfa2e35361914d51b7ed074f010497b, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslasCanarias
+    Flag: {fileID: 21300000, guid: 6a5725cbf9585449aa982bbc25ec87a8, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Kenya
+    Flag: {fileID: 21300000, guid: aaebc15aa4abe4e27ab13b3d63b74965, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Lesotho
+    Flag: {fileID: 21300000, guid: 45e1a7e72f2bc4f7fadc98b9d8c18c8f, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Liberia
+    Flag: {fileID: 21300000, guid: a61cf61c5dfa5477f9fc0e29330ef8d7, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Libia
+    Flag: {fileID: 21300000, guid: f99c4aee8817840c092d672447a5d957, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Madagascar
+    Flag: {fileID: 21300000, guid: 5568e55042eed409dbd096615ad2be61, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Malawi
+    Flag: {fileID: 21300000, guid: 02da2471eb7fd430da3d0a7de0971142, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Mali
+    Flag: {fileID: 21300000, guid: 5394a209d5f8d4aa481b7813d5c87c27, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Marruecos
+    Flag: {fileID: 21300000, guid: 5d20450eb92da4d9ba8ca71b2be3a15d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Mauricio
+    Flag: {fileID: 21300000, guid: 8c36831a3cc5849499e766e6692828b1, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Mauritania
+    Flag: {fileID: 21300000, guid: 9e70391bd5a534ecead54ec06ce561d2, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Mozambique
+    Flag: {fileID: 21300000, guid: c5d1d231db38d474ca93849d2b5495b7, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Namibia
+    Flag: {fileID: 21300000, guid: 4f23fd1114ab243468ba23257259e21b, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Niger
+    Flag: {fileID: 21300000, guid: c879bdf226c5a4347ae298a10988d979, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Nigeria
+    Flag: {fileID: 21300000, guid: ae39405709f0a4517886cfb92d4eb8b0, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: RepublicaCentroAfricana
+    Flag: {fileID: 21300000, guid: d63c506918ba04a9f9e9eb2f66d7b641, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: RepublicaDelCongo
+    Flag: {fileID: 21300000, guid: ea599fe14fe4d42bdad1396c6baa78a6, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: RepublicaDemocraticaDelCongo
+    Flag: {fileID: 21300000, guid: 04193ee5f76e0453991438cd30cec32d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Ruanda
+    Flag: {fileID: 21300000, guid: 6984dbb4112194edf829aafd80c0e4f0, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Senegal
+    Flag: {fileID: 21300000, guid: 528ad4d0f3b3440d0939f537b9b52f43, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Seychelles
+    Flag: {fileID: 21300000, guid: f7af4cc9c8f364088b6d8a8d175640e5, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: SierraLeona
+    Flag: {fileID: 21300000, guid: 16ef6fe0e064e478d9fb1cdc2efdd444, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Somalia
+    Flag: {fileID: 21300000, guid: 478e609e0773a4f7095f1547377764a3, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Suazilandia
+    Flag: {fileID: 21300000, guid: 795b8ec7f6173469eb5be8160bbeda88, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Sudafrica
+    Flag: {fileID: 21300000, guid: 0f59d17a509644659a398380a899c9f9, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Sudan
+    Flag: {fileID: 21300000, guid: fb823e7d4ca7647979a0c9cb3320ee45, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: SudanDelSur
+    Flag: {fileID: 21300000, guid: 1808e76beb832406b9b15cf558d5a0cf, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Tanzania
+    Flag: {fileID: 21300000, guid: 165a91b3a416c404ca460f96821c6782, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Togo
+    Flag: {fileID: 21300000, guid: aaa84ab4a3ae24e90b2ff5b758ba605e, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Tunez
+    Flag: {fileID: 21300000, guid: c86e8e59d5d9d4e8e855a83d45771080, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Uganda
+    Flag: {fileID: 21300000, guid: 34204d09790a7432d8f93e25c82350c3, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Yibuti
+    Flag: {fileID: 21300000, guid: 3eb9364043c2e4d80bca424602270e93, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Zambia
+    Flag: {fileID: 21300000, guid: 92e9357ad47244af098ff301bbfb36ad, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Zimbague
+    Flag: {fileID: 21300000, guid: c230948b3110749a894eb0c4e8f914b2, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  AsiaCountryDataSet:
+  - Name: Afghanistan
+    Flag: {fileID: 21300000, guid: 09015fd34f058437c8287189ef36b897, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: ArabiaSaudi
+    Flag: {fileID: 21300000, guid: a849b574990744ff7bb3e39ef8da4259, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Armenia
+    Flag: {fileID: 21300000, guid: 6d329fbb61a9045bd9064c726f0057ee, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Azerbaijan
+    Flag: {fileID: 21300000, guid: 6c5e5c6b135684e33beb2d8394dda36a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bahrain
+    Flag: {fileID: 21300000, guid: 2ea31bd2d37c040c8adaea7e5cbe4736, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bangladesh
+    Flag: {fileID: 21300000, guid: ecb60f0c3e6354e2d99725a4cd1a2205, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bhutan
+    Flag: {fileID: 21300000, guid: 3de5bfb6f80134ec3823abe97b23f6d9, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Birmania
+    Flag: {fileID: 21300000, guid: 56f7cfddf30df481aa71252a7736ac92, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Brunei
+    Flag: {fileID: 21300000, guid: fa9e575b1c455472f8f6695e3925c767, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Camboya
+    Flag: {fileID: 21300000, guid: d80d7869314a64d03b2825433b29f73d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: China
+    Flag: {fileID: 21300000, guid: 73c0addb713c64a2f9cbc81c3d4a94b7, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Chipre
+    Flag: {fileID: 21300000, guid: 4eadfc87b43bc46549c89faad5b91159, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: CoreaDelNorte
+    Flag: {fileID: 21300000, guid: 48d87aacf1dd34c289bf41d11b4506c6, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: CoreaDelSur
+    Flag: {fileID: 21300000, guid: 043beb36afe5b47728a5def5d741ce2e, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Egipto
+    Flag: {fileID: 21300000, guid: 0e3f6da96bebe4772add3b20be190f84, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: EmiratosArabes
+    Flag: {fileID: 21300000, guid: af36c58f5ed514c7c81956be14bf32f2, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Georgia
+    Flag: {fileID: 21300000, guid: 713482dc386d1485798742217236d314, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: India
+    Flag: {fileID: 21300000, guid: 885f4e9af0e324dfb8e1d6ec9f639220, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Indonesia
+    Flag: {fileID: 21300000, guid: 4e4cdce0ed1094ac6a9b860ee3281364, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Iran
+    Flag: {fileID: 21300000, guid: 4ffb1c97ab1574f5992c610bbfa31b32, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Iraq
+    Flag: {fileID: 21300000, guid: 41a4d8d2bf2c14b40ad489b2e9a92591, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslasFilipinas
+    Flag: {fileID: 21300000, guid: eeda320daa2734f449e1fd66910e4c13, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Israel
+    Flag: {fileID: 21300000, guid: 71f7fc1a880b545688d5a0a2d33d9965, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Japon
+    Flag: {fileID: 21300000, guid: 5b70fb6c3046246a7a78e168a7b2689b, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Jordan
+    Flag: {fileID: 21300000, guid: 0d5d02a9142f54adabedfa3b76c361f4, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Kazakhstan
+    Flag: {fileID: 21300000, guid: 3b42c027851664c2f82a4783aed64eb7, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Kirguistan
+    Flag: {fileID: 21300000, guid: 97ad93a5208a644b3b618d30edb88a4a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Kuwait
+    Flag: {fileID: 21300000, guid: 1c6c0b11eeb08422a946ae4a7a6b024d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Laos
+    Flag: {fileID: 21300000, guid: 3136037467a184594b7e1dde456685dc, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Libano
+    Flag: {fileID: 21300000, guid: 9a0c161dd1df049adaa8e2f7bb31942c, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Malasia
+    Flag: {fileID: 21300000, guid: c9610fd44eb164ff8a0b1aa46c5f74d1, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Maldivas
+    Flag: {fileID: 21300000, guid: 263779852afe845d2b219a03b649f512, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Mongolia
+    Flag: {fileID: 21300000, guid: 89f13ad6808c348fcabf87bec5f67a5a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Nepal
+    Flag: {fileID: 21300000, guid: f7c0a0e94f85b41deb4a276c58baeb81, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Oman
+    Flag: {fileID: 21300000, guid: 6818fd9f03b7147caa1fc1110a8fc6d0, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Pakistan
+    Flag: {fileID: 21300000, guid: 37e68d788e025489b8f48a8c29e90176, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Palestina
+    Flag: {fileID: 21300000, guid: f3e94d490a55942a79c4eb15154d0f85, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Qatar
+    Flag: {fileID: 21300000, guid: 708c5ceb4faa74c7cafa7c24e792cb21, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Rusia
+    Flag: {fileID: 21300000, guid: e7a6a8b9bcfd44a348debd16de49c088, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Singapur
+    Flag: {fileID: 21300000, guid: 1871e2e48cdb04909a01d1f652cac972, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Siria
+    Flag: {fileID: 21300000, guid: 45d7ed78425384eedae7f3051b1c3b8a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Sri Lanka
+    Flag: {fileID: 21300000, guid: 5b3955a1912034de1bf99b5c6c955657, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Tailandia
+    Flag: {fileID: 21300000, guid: 1cd952231d1234322947072f56ed1723, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Taiwan
+    Flag: {fileID: 21300000, guid: cec9eb5f432334d33abcca7cc9edc44c, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Tajikistan
+    Flag: {fileID: 21300000, guid: 66318c8b0d6dc4faa9e9f52e7c20a308, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: TimorOriental
+    Flag: {fileID: 21300000, guid: 09058f0169e324a7c8e8f1f6f1e0588d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Turkmenistan
+    Flag: {fileID: 21300000, guid: d86d7ed632dd5436f8c6de586fcf5648, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Turquia
+    Flag: {fileID: 21300000, guid: ea90596efaeaa4361949a4e5721a3c37, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Uzbekistan
+    Flag: {fileID: 21300000, guid: 09458a90e54184edeabde20903058784, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Vietnam
+    Flag: {fileID: 21300000, guid: a5117eb0ead9c4460b94fa175dd353cb, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Yemen
+    Flag: {fileID: 21300000, guid: 890ce3622e5db461a99ac265b66f860a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  NorthAmericaCountryDataSet:
+  - Name: Anguilla
+    Flag: {fileID: 21300000, guid: 3fab807afc0064392a3e9a5ad4aab40c, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: AntiguayBarbuda
+    Flag: {fileID: 21300000, guid: e400c920449dc406b9e6e7946cb58cd1, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Aruba
+    Flag: {fileID: 21300000, guid: 1f806835f0e644b3089d96f06c6bfa56, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bahamas
+    Flag: {fileID: 21300000, guid: 256e60154b1244508b5b3786e48e4f3e, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Barbados
+    Flag: {fileID: 21300000, guid: c1f029c2996a14a24819463314cd5769, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Belize
+    Flag: {fileID: 21300000, guid: 06e1e3f5e693e4a62af74326e1494b78, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bermuda
+    Flag: {fileID: 21300000, guid: dd95c06b682cc4ad48ba02cd20a54df7, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bonaire
+    Flag: {fileID: 21300000, guid: 1093968aa449c477393bd2323cb05620, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Canada
+    Flag: {fileID: 21300000, guid: 0dc93f7eacde54d00a0fd67aa23ad7fa, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: CostaRica
+    Flag: {fileID: 21300000, guid: 69eeaeb3c8ba7449f85b42af2ae9abe8, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Cuba
+    Flag: {fileID: 21300000, guid: 0d42a602b5735479bbaaa48724420447, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Dominica
+    Flag: {fileID: 21300000, guid: c71302cf00021472bbd3208c62479560, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: ElSalvador
+    Flag: {fileID: 21300000, guid: f760867e0eb8c44fcaab33d3ec8290c8, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: EstadosUnidos
+    Flag: {fileID: 21300000, guid: e38158241b9ea4841a54cafec4260fde, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Granada
+    Flag: {fileID: 21300000, guid: 50a6313398157480ebf6b21959fb5750, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Groenlandia
+    Flag: {fileID: 21300000, guid: 5f2cf8ab21cd64214a0b03cf02173633, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Guatemala
+    Flag: {fileID: 21300000, guid: d63dd7e83b595471baba2b428dba0c13, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Haiti
+    Flag: {fileID: 21300000, guid: d6b20bf51049d4afe9f81f8dd025a4c5, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Honduras
+    Flag: {fileID: 21300000, guid: d6173d179d240402483dfc4aef61e46e, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Jamaica
+    Flag: {fileID: 21300000, guid: 0b7299c1821a54c249a80cd658bdc87a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Mexico
+    Flag: {fileID: 21300000, guid: a6b0efc0968d34dcf96f769580345109, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Nicaragua
+    Flag: {fileID: 21300000, guid: 8e59b9c64c8c944549782decdd3c5b99, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Panama
+    Flag: {fileID: 21300000, guid: c91a4f32c580a4c278b9226a1b5c50f5, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: PuertoRico
+    Flag: {fileID: 21300000, guid: fe754495b64944044be823de0a7099f9, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: RepublicaDominicana
+    Flag: {fileID: 21300000, guid: 6eadb116f530d4351abcda1009bb51f9, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: SanCristobalYNieves
+    Flag: {fileID: 21300000, guid: 6d41305cfb5cf41b3a43be25fba2eee2, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: SantaLucia
+    Flag: {fileID: 21300000, guid: 66d3ff669198248fca6272e5a2c44d81, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: SanVicenteYLasGranadinas
+    Flag: {fileID: 21300000, guid: bd3218d1a220d46e5b5b0306f609b6d7, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: TrinidadYTobago
+    Flag: {fileID: 21300000, guid: b5259a30458ad41809e8156ef3935d00, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  SouthAmericaCountryDataSet:
+  - Name: Argentina
+    Flag: {fileID: 21300000, guid: 75eebf3e66ab74d9a974cda10b068367, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Bolivia
+    Flag: {fileID: 21300000, guid: 82fc79afbd36747c7afdca0d61ba1f8a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Brasil
+    Flag: {fileID: 21300000, guid: c499c79345b7e4b7aad65a4e969d7e34, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Chile
+    Flag: {fileID: 21300000, guid: d9cd9b499e0504fefb983863b5799f00, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Colombia
+    Flag: {fileID: 21300000, guid: 2f598584c983b4f68906d8f9feefb295, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Ecuador
+    Flag: {fileID: 21300000, guid: bbb6307a2629245c298a6c0b016bc323, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Guayana
+    Flag: {fileID: 21300000, guid: aefcaabf233f14889ab8263913014e70, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslasMalvinas
+    Flag: {fileID: 21300000, guid: 32f763643f621466b84fbb17779ca5dd, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Paraguay
+    Flag: {fileID: 21300000, guid: f5b878c16342047cfbd86491ee72aa44, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Peru
+    Flag: {fileID: 21300000, guid: 1c7931085d7e64120a17ac772377b758, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Surinam
+    Flag: {fileID: 21300000, guid: 1472b36ecd34346b492e7da233377a85, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Uruguay
+    Flag: {fileID: 21300000, guid: 1284d83d837ea4019acced172d6d1732, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Venezuela
+    Flag: {fileID: 21300000, guid: cd98b0a2da49f4909a3f1b9f173b12b8, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  OceaniaCountryDataSet:
+  - Name: Australia
+    Flag: {fileID: 21300000, guid: 59449a49b2919414fb8076ed2da704cc, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: EstadosFederadosDeMicronesia
+    Flag: {fileID: 21300000, guid: d019ba8aeaa75479bb30843f8344c549, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Fiji
+    Flag: {fileID: 21300000, guid: 899e0e59dc90c42b6bbf3dd24e28e9b4, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Guam
+    Flag: {fileID: 21300000, guid: 53b182d83ac7a4f5f9e30c5c1fe68f89, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Hawaii
+    Flag: {fileID: 21300000, guid: 262d34a8a8dfe4817b9a56df06fd3c27, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Indonesia
+    Flag: {fileID: 21300000, guid: c66d42c2a25e744059e066f5932c06b7, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslaDePascua
+    Flag: {fileID: 21300000, guid: 6ce5595fc3d0a481cb7c67d0745cf546, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslaNorfolk
+    Flag: {fileID: 21300000, guid: e3e4c5414db5b4a0aa188a719356d14b, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslasCook
+    Flag: {fileID: 21300000, guid: 17794e959da804b30b15d5577ce40a8f, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslasMarianasDelNorte
+    Flag: {fileID: 21300000, guid: 51157646bf0c34d47b2190aa04098fb0, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslasMarshall
+    Flag: {fileID: 21300000, guid: 0245b4ef2591242cdaa9310a19101997, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslasPitcairn
+    Flag: {fileID: 21300000, guid: e07dbb7c863a743e68239319bb57a96a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: IslasSalomon
+    Flag: {fileID: 21300000, guid: 83cec06d3c5804d2c991a2aad62236cb, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Kiribati
+    Flag: {fileID: 21300000, guid: 1cc88a2201c90410f9819bb74d38dd00, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Nauru
+    Flag: {fileID: 21300000, guid: 1b6c3a820e4ed4859a1ab0a8a8a01c08, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Niue
+    Flag: {fileID: 21300000, guid: 79a88a74f1d524430904a150aaba4742, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: NuevaCaledonia
+    Flag: {fileID: 21300000, guid: 6e4b7fc64143246a293cf6f345210ec0, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: NuevaZelanda
+    Flag: {fileID: 21300000, guid: 90e4747abd5db44b291e98bb859d2ac8, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Palau
+    Flag: {fileID: 21300000, guid: 9125715626a5744bc9cefaac3188002f, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: PapuaNuevaGuinea
+    Flag: {fileID: 21300000, guid: a8b0f0104c4ea40b699c5366604fc902, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: PolinesiaFrancesa
+    Flag: {fileID: 21300000, guid: 40b5e5bc0791a417bb702ca71f49a8a4, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Samoa
+    Flag: {fileID: 21300000, guid: 8173326f0b9ad482ea97e49a12825230, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: SamoaAmericana
+    Flag: {fileID: 21300000, guid: 56d5c17af64064cce9ce3bf5a8ea8b23, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Tokelau
+    Flag: {fileID: 21300000, guid: 68a2c10dfaa6543578d44f436b1b8313, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Tonga
+    Flag: {fileID: 21300000, guid: 7eb5a7a0ab4b84c31ad17c863ab599e0, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Tuvalu
+    Flag: {fileID: 21300000, guid: c59982fb6a18d4f1b970b12605d82b27, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Vanuatu
+    Flag: {fileID: 21300000, guid: 3ffc8f72302ae460bae06cf28f1fbd8d, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  CountrySetPerGame: []
+  CountryDataSet: []
+--- !u!4 &1398436557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398436555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 215.30774, y: -122.87178, z: -6.2069}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1544138921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1544138922}
+  - component: {fileID: 1544138924}
+  - component: {fileID: 1544138923}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1544138922
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544138921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2053915816}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 800, y: 1300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1544138923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544138921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3f860f0427f16479c9e87bcbdd2a6a66, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1544138924
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544138921}
+  m_CullTransparentMesh: 1
+--- !u!1 &2053915812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2053915816}
+  - component: {fileID: 2053915815}
+  - component: {fileID: 2053915814}
+  - component: {fileID: 2053915813}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2053915813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053915812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2053915814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053915812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &2053915815
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053915812}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 1098581403}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &2053915816
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053915812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1544138922}
+  - {fileID: 636375421}
+  - {fileID: 787486691}
+  - {fileID: 475556952}
+  - {fileID: 745102112}
+  - {fileID: 446958689}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
